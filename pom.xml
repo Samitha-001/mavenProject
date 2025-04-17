@@ -13,15 +13,20 @@
     <module>mavenProjectCompositeExporter</module>
   </modules>
   <scm>
-    <connection>scm:git:https://github.com/username/repository.git</connection>
-    <developerConnection>scm:git:https://github.com/username/repository.git</developerConnection>
-    <url>https://github.com/username/repository.git</url>
+    <connection>scm:git:https://github.com/Samitha-001/mavenProject.git</connection>
+    <developerConnection>scm:git:https://github.com/Samitha-001/mavenProject.git</developerConnection>
+    <url>https://github.com/Samitha-001/mavenProject.git</url>
   </scm>
   <distributionManagement>
     <repository>
-      <id>release</id>
-      <name>Release Distribution Repository</name>
-      <url>https://example.com/nexus/repository</url>
+      <releases>
+        <enabled>true</enabled>
+      </releases>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+      <id>samitharathnayake001</id>
+      <url>https://pkgs.dev.azure.com/samitharathnayake001/_packaging/samitharathnayake001/maven/v1</url>
     </repository>
   </distributionManagement>
   <properties>
